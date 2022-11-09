@@ -13,12 +13,12 @@ public class Ex09 {
 		int[] arr = new int[6];
 		for(int i=0; i<num; i++) {
 			for(int j=0; j<arr.length; j++) {
-				arr[j]=r.nextInt(44)+1;
+				arr[j]=r.nextInt(45)+1;
 				//번호 중복 확인
 				do {
 					for(int k=0; k<arr.length; k++) {
 						if(arr[j]==arr[k]) {
-							arr[j]=r.nextInt(44)+1;
+							arr[j]=r.nextInt(45)+1;
 						}
 					}break;
 					
@@ -30,7 +30,7 @@ public class Ex09 {
 			do {
 				for(int k=0; k<arr.length; k++) {
 					if(arr[k]==bonus) {
-						bonus=r.nextInt(44)+1;
+						bonus=r.nextInt(45)+1;
 					}
 				}break;
 				
