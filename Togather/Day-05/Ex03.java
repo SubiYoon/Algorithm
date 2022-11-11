@@ -1,5 +1,5 @@
 package Algorith.Day05;
-
+//py갯수 같은지 아닌지 판별
 public class Ex03 {
 	    boolean solution(String s) {
 	        boolean answer = true;

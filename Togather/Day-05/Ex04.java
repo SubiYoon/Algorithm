@@ -1,5 +1,7 @@
 package Algorith.Day05;
 
+//문자열 숫자로 변경
+
 public class Ex04 {
 	    public int solution(String s) {
 	        int answer = 0;

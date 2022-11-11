@@ -1,5 +1,5 @@
 package Algorith.Day05;
-
+//하샤드수 판별
 public class Ex01 {
 	    public boolean solution(int x) {
 	        boolean answer = true;
