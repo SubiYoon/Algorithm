@@ -7,28 +7,21 @@ public class Ex02 {
 	 public static int[] solution(int[] arr) { 		 
 		 int[] answer = {-1};	//예외 반환 값
 		 int min1 = arr[0];		//초기 배열 0번지를 최소값으로 세팅
-		 int min2 = 0;			//min1과 비교대상
 		 int index = 0;			//최소값의 인덱스값 추출
 		 if(arr[0]==10) {
 			 return answer;
 		 }
 		 
-		 //Arrays.sort(arr);
+
 		 
-		 //최소값 탐색히야 min1에 대입
-		 for(int i=0; i<arr.length-1; i++) {
+		 //최소값 탐색해서 min1에 대입
 			 for(int j=0; j<arr.length; j++) {
-				 if(arr[i]>arr[j]) {
-					 int temp = arr[j];
-					 min2 = temp;
+				 if(min1>arr[j]) {
+					 min1=arr[j];
 				 }
-			 }
-			 if(min1>min2) {
-				 min1=min2;
-			 }
 		 }
-		 
-		//인덱스값 도출
+			 
+		 //최솟값 인덱스 구하기
 		 for(int i=0; i<arr.length; i++) {
 			 if(arr[i]==min1) {
 				 index=i;
