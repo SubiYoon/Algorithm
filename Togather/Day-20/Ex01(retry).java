@@ -33,32 +33,18 @@ public class Ex01 {
 	        		numbers[i]=11;
 	        	}
 	        }
-	        
-	        //1,4,7과 3,6,9를 누를때 and 왼손or오른손이 움직이지 않고, 2,5,8,0을 누를때
-	        for(int i=0; i<numbers.length; i++) {
-	        	if(numbers[i]==1 || numbers[i]==4 || numbers[i]==7){
-	        		answer+="L";
-	        		lc = numbers[i];
-	        	}else if(numbers[i]==3 || numbers[i]==6 || numbers[i]==9) {
-	        		answer+="R";
-	        		rc = numbers[i];
-	        	}else if(hand=="right" && lc==10 && (numbers[i]==2 || numbers[i]==5 || numbers[i]==8  || numbers[i]==0)){
-	        		answer+="R";
-	        		rc=numbers[i];
-	        	}else if(hand=="left" && rc==12 && (numbers[i]==2 || numbers[i]==5 || numbers[i]==8  || numbers[i]==0)){
-	        		answer+="L";
-	        		lc=numbers[i];
-	        	}
-	        }
-	        
-	        
+	      
 	        
 	        return answer;
 	    }
 	
 	public static void main(String[] args) {
-		int[] arr = {1,3,4,5,8,2,1,4,5,9,5};
-		System.out.println(solution(arr, "right")); // "LRLLLRLLRRL"
+		//int[] arr = {1,3,4,5,8,2,1,4,5,9,5};
+		int[] arr1 = {7,0,8,2,8,3,1,5,7,6,2};
+		int[] arr2 = {1,2,3,4,5,6,7,8,9,0};
+		//System.out.println(solution(arr, "right")); // "LRLLLRLLRRL"
+		System.out.println(solution(arr1, "left")); // "LRLLLRLLRRL"
+		System.out.println(solution(arr2, "right")); // "LRLLLRLLRRL"
 
 	}
 
