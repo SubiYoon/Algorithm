@@ -1,8 +1,9 @@
-package algoritmReport;
+package Algorithm.Alone;
+
 
 import java.util.Scanner;
 
-public class Ex07 {
+public class Ex08 {
 
 	/*
 	 피보나치 수열 만들기

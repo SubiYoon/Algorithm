@@ -1,11 +1,12 @@
-package algoritmReport;
+package Algorithm.Alone;
+
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.util.ArrayList;
 
-public class Ex04 {
+public class Ex05 {
 
 	public static void main(String[] args) {
 /*

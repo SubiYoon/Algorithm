@@ -1,8 +1,9 @@
-package eLearning.algoritm.chapter09;
+package Algorithm.Alone;
+
 
 import java.util.Scanner;
 
-public class Test01 {
+public class Ex10 {
 	/*
 	 
 	 - N * M 크기의 얼음 틀이 있음

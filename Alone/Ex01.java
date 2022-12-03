@@ -1,4 +1,4 @@
-package algoritmReport;
+package Algorithm.Alone;
 
 import java.util.Iterator;
 import java.util.TreeSet;

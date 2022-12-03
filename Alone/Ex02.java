@@ -1,4 +1,4 @@
-package algoritmReport;
+package Algorithm.Alone;
 
 import java.io.BufferedReader;
 import java.io.IOException;

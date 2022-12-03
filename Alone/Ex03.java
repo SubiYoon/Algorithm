@@ -1,10 +1,11 @@
-package eLearning.algoritm.chapter07;
+package Algorithm.Alone;
+
 
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class Test01 {
+public class Ex03 {
 	/*
 	- 두개의 배열 A,B가 있고, 배열의 원소는 모두 자연수 두 배열은 모두 N개의 원소로 구성
 	- 최대 K번의 바궈치기 연산을 수행

@@ -1,4 +1,5 @@
-package algoritmReport;
+package Algorithm.Alone;
+
 
 import java.util.Arrays;
 import java.util.Random;

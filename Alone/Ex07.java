@@ -1,9 +1,10 @@
-package algoritmReport;
+package Algorithm.Alone;
+
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Ex06 {
+public class Ex07 {
 
 	public static void main(String[] args) {
 		//과제물

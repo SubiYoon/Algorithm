@@ -1,10 +1,11 @@
-package algoritmReport;
+package Algorithm.Alone;
+
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 
-public class Ex03 {
+public class Ex04 {
 
 	public static void main(String[] args) {
 		// data.1txt파일의 내용을 읽어 다음 출력형식으로 표시하다.
