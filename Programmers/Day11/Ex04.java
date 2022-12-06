@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day11;
+package Algorithm.Programmers.Day11;
 
 public class Ex04 {
 	public static String solution(String s) {

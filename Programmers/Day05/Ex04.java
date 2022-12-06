@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day05;
+package Algorithm.Programmers.Day05;
 //문자열 숫자로 변경
 
 public class Ex04 {

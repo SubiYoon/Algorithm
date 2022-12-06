@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day05;
+package Algorithm.Programmers.Day05;
 //하샤드수 판별
 public class Ex01 {
 	    public boolean solution(int x) {

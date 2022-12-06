@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day08;
+package Algorithm.Programmers.Day08;
 //정답이 틀림... 이유 알고 수정!! 두번의 최종 수정후..성공..
 import java.util.Arrays;
 

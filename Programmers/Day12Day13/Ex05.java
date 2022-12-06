@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day12Day13;
+package Algorithm.Programmers.Day12Day13;
 //비밀지도
 
 //지도1과 지도2 중 둘중하나라도 벽이면 벽, 둘다공백이면 공백

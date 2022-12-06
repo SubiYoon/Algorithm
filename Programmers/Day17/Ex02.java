@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day17;
+package Algorithm.Programmers.Day17;
 //콜라병 회수하면 콜라주기
 public class Ex02 {
 	public static int solution(int a, int b, int n) {

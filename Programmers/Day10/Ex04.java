@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day10;
+package Algorithm.Programmers.Day10;
 //행렬의 덧셈
 public class Ex04 {
 	public static int[][] solution(int[][] arr1, int[][] arr2) {

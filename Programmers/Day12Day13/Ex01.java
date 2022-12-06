@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day12Day13;
+package Algorithm.Programmers.Day12Day13;
 //최소직사각형 (명함)
 public class Ex01 {
 	public static int solution(int[][] sizes) {

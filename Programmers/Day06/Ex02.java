@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day06;
+package Algorithm.Programmers.Day06;
 //숫자 내림차순 만들기
 public class Ex02 {
 

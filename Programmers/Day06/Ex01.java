@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day06;
+package Algorithm.Programmers.Day06;
 //콜라츠 추측
 public class Ex01 {
 

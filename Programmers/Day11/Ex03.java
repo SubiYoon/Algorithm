@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day11;
+package Algorithm.Programmers.Day11;
 //같은 숫자는 싫어
 import java.util.Arrays;
 import java.util.Stack;

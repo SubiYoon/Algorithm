@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day14;
+package Algorithm.Programmers.Day14;
 //숫자 문자열과 영단어
 public class Ex01 {
 	public static int solution(String s) {

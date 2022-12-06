@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day14;
+package Algorithm.Programmers.Day14;
 //K번째수
 import java.util.Arrays;
 

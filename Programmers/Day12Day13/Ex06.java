@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day12Day13;
+package Algorithm.Programmers.Day12Day13;
 //문자열 내마음대로 정렬하기
 import java.util.Arrays;
 

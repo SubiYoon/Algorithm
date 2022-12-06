@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day10;
+package Algorithm.Programmers.Day10;
 //문자열 다루기 기본
 public class Ex01 {
 	public static boolean solution(String s) {

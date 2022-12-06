@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day14;
+package Algorithm.Programmers.Day14;
 //삼총사
 //각 배열의 세자리 숫자를 더했을 때 0이 되는 경우의 수를 구하여 반환
 public class Ex03 {

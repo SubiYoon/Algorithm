@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day10;
+package Algorithm.Programmers.Day10;
 
 public class Ex02 {
 	

@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day21;
+package Algorithm.Programmers.Day21;
 /*
  카톡아이디 추천
 1단계 new_id의 모든 대문자를 대응되는 소문자로 치환합니다.

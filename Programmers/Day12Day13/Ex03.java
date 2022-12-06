@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day12Day13;
+package Algorithm.Programmers.Day12Day13;
 //3진법 뒤집기
 public class Ex03 {
 	public static int solution(int n) {

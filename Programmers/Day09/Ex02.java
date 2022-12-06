@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day09;
+package Algorithm.Programmers.Day09;
 //수박수박수박수박수??
 public class Ex02 {
 	

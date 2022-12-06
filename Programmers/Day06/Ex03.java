@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day06;
+package Algorithm.Programmers.Day06;
 //x부터 x간격으로 더한 n개의 데이터 배열
 import java.util.Arrays;
 

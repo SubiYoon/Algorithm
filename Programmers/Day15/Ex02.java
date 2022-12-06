@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day15;
+package Algorithm.Programmers.Day15;
 
 import java.util.HashSet;
 

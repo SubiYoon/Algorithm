@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day01;
+package Algorithm.Programmers.Day01;
 
 public class Star06 {
 

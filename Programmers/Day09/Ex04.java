@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day09;
+package Algorithm.Programmers.Day09;
 //문자열 내림차순으로 정렬
 public class Ex04 {
 	public static String solution(String s) {

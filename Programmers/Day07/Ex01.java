@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day07;
+package Algorithm.Programmers.Day07;
 // 핸드폰 번호 가리기
 public class Ex01 {
 	public static String solution(String phone_number) {

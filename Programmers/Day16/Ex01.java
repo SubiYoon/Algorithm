@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day16;
+package Algorithm.Programmers.Day16;
 
 import java.util.ArrayList;
 //배열의 숫자 3개를 더해 소수의 갯수를 구하라

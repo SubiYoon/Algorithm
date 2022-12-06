@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day05;
+package Algorithm.Programmers.Day05;
 //평균구하기
 public class Ex02 {
 	    public double solution(int[] arr) {

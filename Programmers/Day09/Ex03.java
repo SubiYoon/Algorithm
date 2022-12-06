@@ -1,5 +1,4 @@
-package Algorithm.Togather.Day09;
-//내적
+package Algorithm.Programmers.Day09;
 public class Ex03 {
 	public static int solution(int[] a, int[] b) {
 		 int answer = 0;

@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day02;
+package Algorithm.Programmers.Day02;
 
 class Solution {
     public static String solution(int num) {

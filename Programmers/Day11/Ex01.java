@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day11;
+package Algorithm.Programmers.Day11;
 // 직사각형 별찍기
 import java.util.Scanner;
 

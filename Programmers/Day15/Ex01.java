@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day15;
+package Algorithm.Programmers.Day15;
 //2016년 요일계산
 public class Ex01 {
 	public static String solution(int a, int b) {

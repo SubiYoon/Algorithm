@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day08;
+package Algorithm.Programmers.Day08;
 //없는숫자 더하기
 public class Ex04 {
 

@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day15;
+package Algorithm.Programmers.Day15;
 
 //소수찾기
 public class Ex03 {

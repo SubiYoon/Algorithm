@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day20;
+package Algorithm.Programmers.Day20;
 
 import java.util.ArrayList;
 

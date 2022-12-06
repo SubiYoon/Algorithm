@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day12Day13;
+package Algorithm.Programmers.Day12Day13;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day10;
+package Algorithm.Programmers.Day10;
 //부족한 금액 계산하기
 public class Ex03 {
 	public static long solution(int price, int money, int count) {

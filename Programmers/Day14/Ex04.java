@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day14;
+package Algorithm.Programmers.Day14;
 //두개 뽑아서 더하기
 //배열에서 두 수를 뽑아서 더했을 때 나올수 있는 수를 오름차순으로 담아 반환
 import java.util.Arrays;

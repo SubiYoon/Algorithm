@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day07;
+package Algorithm.Programmers.Day07;
 //서울에서 김서방 찾기
 public class Ex02 {
 	 public static String solution(String[] seoul) {

@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day08;
+package Algorithm.Programmers.Day08;
 
 import java.util.Arrays;
 import java.util.TreeSet;

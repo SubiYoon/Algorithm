@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day20;
+package Algorithm.Programmers.Day20;
 /*
  키패드 무슨손으로 눌렀니??
  

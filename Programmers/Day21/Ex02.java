@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day21;
+package Algorithm.Programmers.Day21;
 
 /*
  숫자 짝꿍

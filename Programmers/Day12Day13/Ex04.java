@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day12Day13;
+package Algorithm.Programmers.Day12Day13;
 //시저 암호
 public class Ex04 {
 	public static String solution(String s, int n) {

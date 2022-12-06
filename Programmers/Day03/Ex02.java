@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day03;
+package Algorithm.Programmers.Day03;
 
 public class Ex02 {
     public int solution(int n) {

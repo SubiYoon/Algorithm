@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day15;
+package Algorithm.Programmers.Day15;
 //모의고사 (찍기문제)
 import java.util.Arrays;
 

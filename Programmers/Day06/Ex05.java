@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day06;
+package Algorithm.Programmers.Day06;
 //두 정수 a,b사이의 합
 public class Ex05 {
 	public static long solution(int a, int b) {

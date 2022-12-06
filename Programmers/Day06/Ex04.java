@@ -1,4 +1,4 @@
-package Algorithm.Togather.Day06;
+package Algorithm.Programmers.Day06;
 //n을 나누었을 때 나머지가 1이되는 가장 작은 수
 public class Ex04 {
 	
