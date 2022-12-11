@@ -22,6 +22,7 @@ public class Ex01 {
 	public static void main(String[] args) {
 		String str1 = "a234";
 		String str2 = "1234";
+		System.out.println(solution(str1));
 		System.out.println(solution(str2));
 		System.out.println((int)'9');
 	}

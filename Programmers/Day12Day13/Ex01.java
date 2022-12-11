@@ -22,8 +22,11 @@ public class Ex01 {
 			 ga=(sizes[i][0]>ga) ? sizes[i][0] : ga;
 			 se=(sizes[i][1]>se) ? sizes[i][1] : se;
 		 }
-	        return ga*se;
-	    }
+
+		 answer = ga*se;
+
+	    return answer;
+	}
 	
 	//테스트
 	public static void main(String[] args) {
