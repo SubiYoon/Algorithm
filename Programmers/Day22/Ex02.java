@@ -12,17 +12,20 @@ public class Ex02 {
         String[] pass = {"aya", "ye", "woo", "ma"};
         String[] nonPass = {"ayaaya" , "yeye", "woowoo", "mama"};
         
+        //각 배열 하나하나씩 체크
         for(String bab : babbling){
+            
+            //같은 음절 반복하는거 ?로 체크
             for(String n : nonPass){
                 bab = bab.replace(n, "?");
             }
 
+            //발음 가능한거 !로 체크
             for(String p : pass){
                 bab = bab.replace(p, "!");
             }
 
-            System.out.println(bab);
-
+            //해당 문자열에 !가 아닌 것들이 있으면 count에 1을 대입하고 빠져나감
             int count=0;
             for(int i=0; i<bab.length(); i++){
                 if(!(bab.charAt(i)=='!')){
@@ -30,6 +33,8 @@ public class Ex02 {
                     break;
                 }
             }
+
+            //반복문 끝나고 전부 !일시 answer을 1증가
             if(count==0){
                 answer++;
             }
