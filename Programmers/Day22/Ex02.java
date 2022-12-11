@@ -9,6 +9,32 @@ package Algorithm.Programmers.Day22;
 public class Ex02 {
     public int solution(String[] babbling) {
         int answer = 0;
+        String[] pass = {"aya", "ye", "woo", "ma"};
+        String[] nonPass = {"ayaaya" , "yeye", "woowoo", "mama"};
+        
+        for(String bab : babbling){
+            for(String n : nonPass){
+                bab = bab.replace(n, "?");
+            }
+
+            for(String p : pass){
+                bab = bab.replace(p, "!");
+            }
+
+            System.out.println(bab);
+
+            int count=0;
+            for(int i=0; i<bab.length(); i++){
+                if(!(bab.charAt(i)=='!')){
+                    count=1;
+                    break;
+                }
+            }
+            if(count==0){
+                answer++;
+            }
+
+        }
 
         return answer;
     }
