@@ -1,6 +1,7 @@
 package Algorithm.Programmers.Day28;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 
@@ -13,41 +14,45 @@ import java.util.Iterator;
  */
 public class Ex01 {
     public int[] solution(String[] id_list, String[] report, int k) {
-        int[] answer = new int[id_list.length];
+        int[] answer =new int[id_list.length];
         int[] count = new int[id_list.length];
 
+        HashMap<String, Integer> map = new HashMap<>();
+        for(int i=0; i<id_list.length; i++){
+            map.put(id_list[i], i);
+        }
+
         HashSet<String> set = new HashSet<>();
-        for (int i = 0; i < report.length; i++) {
+        for(int i=0; i<report.length; i++){
             set.add(report[i]);
+        }        
+
+        String[] str = new String[set.size()];
+        String[] str2 = new String[set.size()];
+        Iterator<String> it = set.iterator();
+        int str_count =0;
+        while(it.hasNext()){
+            String[] str3 = it.next().split(" ");
+            str[str_count] = str3[1];
+            str2[str_count] = str3[0];
+            str_count++;
         }
 
-        Iterator<String> it1 = set.iterator();
-        while (it1.hasNext()) {
-            String[] str = it1.next().split(" ");
-            for (int i = 0; i < count.length; i++) {
-                if (id_list[i].equals(str[1])) {
-                    count[i]++;
-                    if(count[i]==k){
-                        break;
+        for(int i=0; i<str.length; i++){
+            if(count[map.get(str[i])]<k){
+                count[map.get(str[i])]++;
+            }
+        }
+
+        for(int i=0; i<count.length; i++){
+            if(count[i]>=k){
+                for (int j = 0; j < str.length; j++) {
+                    if (id_list[i].equals(str[j])) {
+                        answer[map.get(str2[j])]++;
                     }
                 }
             }
         }
-
-        for (int i = 0; i < count.length; i++) {
-            if (count[i] >= k) {
-                Iterator<String> it2 = set.iterator();
-                while (it2.hasNext()) {
-                    String[] str = it2.next().split(" ");
-                    for (int j = 0; j < count.length; j++) {
-                        if (id_list[i].equals(str[1]) && id_list[j].equals(str[0])) {
-                            answer[j]++;
-                        }
-                    }
-                }
-            }
-        }
-
         return answer;
     }
 
