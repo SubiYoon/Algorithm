@@ -22,7 +22,7 @@ public class Ex01 {
         for(int i=0; i<terms.length; i++){
             map.put(terms[i].charAt(0), Integer.parseInt(terms[i].split(" ")[1]));
         }
-
+        
         List<Integer> list = new ArrayList<>();
     
         for(int i=0; i<privacies.length; i++){
