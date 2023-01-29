@@ -22,6 +22,21 @@ public class Ex01 {
         }
         return answer;
     }
+ 
+    public int[] solution2(String str) {
+        int[] answer = new int[str.length()];
+        for (int i = 0; i < str.length(); i++) {
+            char c = str.charAt(i);
+            if (str.indexOf(c) == i) {
+                answer[i] = -1;
+            } else {
+                answer[i] = i - str.indexOf(c);
+                str = str.replaceFirst(""+c, "*");
+            }
+        }
+        return answer;
+    }
+ 
     public static void main(String[] args) {
         Ex01 ex = new Ex01();
         System.out.println(Arrays.toString(ex.solution("banana")));  //-1 -1 -1 2 2 2
