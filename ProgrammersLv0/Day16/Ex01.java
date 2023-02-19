@@ -4,13 +4,23 @@ package Algorithm.ProgrammersLv0.Day16;
 //a는 분자 b는 분모
 public class Ex01 {
     public int solution(int a, int b) {
-        int answer = 0;
+        int bottom = finalBottom(a, b);
+        
+        while(true){
+            if(bottom%2==0){
+                bottom/=2;
+            }else if(bottom%5==0){
+                bottom/=5;
+            }else if(bottom==1){
+                return 1;
+            }else {
+                return 2;
+            }
 
-        System.out.println(finalBottom(a, b));
-
-        return answer;
+        }
     }
 
+    //기약분수 구하기(분모만)
     public int finalBottom(int a, int b){
         int bottom = 0;
         if(a>b){
