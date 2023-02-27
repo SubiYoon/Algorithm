@@ -1,7 +1,5 @@
 package Algorithm.ProgrammersLv1.Day30;
 
-import java.util.Arrays;
-
 /*
 둘만의 암호
 s에있는 String에 알파벳당 index를 더함
@@ -9,34 +7,27 @@ s에있는 String에 알파벳당 index를 더함
  */
 public class Ex02 {
     public String solution(String s, String skip, int index) {
-        String answer = "";
-        char[] cList = new char[skip.length()];
+        char[] charList = new char[s.length()];
 
-        for(int i=0; i<skip.length(); i++){
-            cList[i] = skip.charAt(i);
-        }
-
-        //오름차순 정렬
-        Arrays.sort(cList);
-
-        //s를 charAt으로 하나씩 비교
+        //s를 char배열에 담음
         for(int i=0; i<s.length(); i++){
-            //최종 answer에 추가할 문자
-            int c = (int)s.charAt(i) + index;
-
-            //charAt과 charAt + index 사이에 있을 경우 c++해줌
-            for(int j=0; j<cList.length; j++){
-                if((int)s.charAt(i) <= (int)cList[j] && (int)cList[j] <= c){
-                    c++;
-                }
-
-                //z를 넘어간다면 다시 a로 변경
-                if(c>122){
-                    c-=26;
-                }
-            }
-            answer += (char)c;
+            charList[i]=s.charAt(i);
         }
+
+        for(int i = 0 ; i < charList.length ; i++){
+            //index만큼 한칸씩 밀어줌
+            for(int j = 0 ; j < index ; j++){
+                do{
+                    charList[i]++;
+                    
+                    //'z'를 넘기면 'a'로 내려감
+                    if(charList[i] > 'z'){
+                        charList[i] -= 26;
+                    }
+                }while(skip.contains(String.valueOf(charList[i]))); //skip에 해당 문자가 존재하면 계속 밀어줌
+            }
+        }
+        String answer = String.valueOf(charList);
         return answer;
     }
 }
