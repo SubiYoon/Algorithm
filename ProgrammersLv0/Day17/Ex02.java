@@ -3,7 +3,7 @@ package Algorithm.ProgrammersLv0.Day17;
 import java.util.Arrays;
 
 /*
-최반값 구하기
+최빈값 구하기
 최값이 여러개면 -1리턴
 최빈값이 한개면 해당 값 리턴
 */
