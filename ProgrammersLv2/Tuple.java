@@ -1,11 +1,9 @@
 package Algorithm.ProgrammersLv2;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 /*
 튜플 : 셀수 있는 수량의 순서있는 열거 or 어떤 순서를 따르는 요소들의 모음
@@ -22,11 +20,6 @@ public class Tuple {
         String str = s.replace("{", "");
         str = str.replace("}", "");
         String[] strNum = str.split(",");
-
-        Set<String> set = new HashSet<>();
-        for (int i = 0; i < strNum.length; i++) {
-            set.add(strNum[i]);
-        }
 
         HashMap<String, Integer> map = new HashMap<>();
         for (int i = 0; i < strNum.length; i++) {
